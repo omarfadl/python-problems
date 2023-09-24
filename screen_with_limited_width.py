@@ -1,5 +1,6 @@
-#Enter Python code here and hit the Run button.
+#characters allower per screen line 
 LINE_LENGTH=40
+##################
 lines=list()
 line=[]
 line_id=0;
