@@ -1,4 +1,4 @@
-word="aabbbbcdffl"
+word="aabbbbcdffll"
 count=1
 result=[]
 i=0
@@ -11,8 +11,9 @@ while i<len(word)-1:
         count=1
     i+=1
 
-if (i==len(word)-1 and count==1):
-    result.append(word[i])
+# Append the last character correctly
+result.append(str(count) + word[i] if count > 1 else word[i])
+
 
     
 print("".join(result))
